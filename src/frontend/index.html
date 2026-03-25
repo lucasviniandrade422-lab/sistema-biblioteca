@@ -1,12 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Sistema Biblioteca</title>
+    <title>Sistema de Biblioteca</title>
 </head>
-
 <body>
-<h1>Sistema de Biblioteca</h1>
-<p>Frontend do sistema</p>
-</body>
 
+    <h1>Sistema de Biblioteca</h1>
+
+    <h2>Empréstimo de Livro</h2>
+
+    <label>Usuário:</label>
+    <input type="text" id="usuario"><br><br>
+
+    <label>Livro:</label>
+    <input type="text" id="livro"><br><br>
+
+    <button onclick="emprestar()">Emprestar</button>
+
+    <p id="resultado"></p>
+
+    <script>
+        function emprestar() {
+            let usuario = document.getElementById("usuario").value;
+            let livro = document.getElementById("livro").value;
+
+            if (usuario === "" || livro === "") {
+                document.getElementById("resultado").innerText = "Preencha todos os campos.";
+            } else {
+                document.getElementById("resultado").innerText = 
+                    "Solicitação enviada (simulação).";
+            }
+        }
+    </script>
+
+</body>
 </html>
