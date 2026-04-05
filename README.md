@@ -1,75 +1,53 @@
-# Sistema de Gestão de Biblioteca
+# 📚 Sistema de Biblioteca
 
-## 📌 Objetivo do Projeto
+Projeto desenvolvido no Figma com o objetivo de simular a interface de um sistema de biblioteca, contendo tela de login e listagem de livros com opção de empréstimo.
 
-Este projeto tem como objetivo desenvolver um sistema simples de gestão de biblioteca, permitindo o controle de livros, usuários e empréstimos de forma organizada e eficiente.
+---
+
+## 🎯 Objetivo
+
+Criar um protótipo funcional e organizado de um sistema simples de biblioteca, aplicando conceitos de design de interface (UI) e organização visual.
 
 ---
 
 ## ⚙️ Funcionalidades
 
-* Cadastro de usuários
-* Cadastro de livros
-* Empréstimo de livros
-* Controle de disponibilidade dos livros
-* Validação de empréstimos (livro disponível e usuário cadastrado)
+- 🔐 Tela de login (email e senha)
+- 📖 Listagem de livros disponíveis
+- 🔘 Botão de "Emprestar" para cada livro
+- 🔗 Navegação entre telas (protótipo)
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🎨 Protótipo no Figma
 
-* Python (Backend)
-* HTML (Frontend)
-* GitHub (Versionamento)
-
----
-
-## 📁 Estrutura do Projeto
-
-```
-/docs
-   /requisitos
-   /diagramas
-   /testes
-/src
-   (código-fonte do sistema)
-README.md
-```
+👉 Acesse o projeto pelo link:  
+https://www.figma.com/design/7cJvAtInEiOg6LbifiGOUu/Sistema-de-Biblioteca?node-id=0-1&p=f&t=jV6mkc777YKxm7f0-0
 
 ---
 
-## ▶️ Como Executar o Projeto
+## 📷 Telas do Projeto
 
-1. Clone o repositório:
+### 🔐 Tela de Login
+Login
 
-```
-git clone <link-do-repositorio>
-```
-
-2. Acesse a pasta do projeto:
-
-```
-cd sistema-biblioteca
-```
-
-3. Execute o sistema:
-
-```
-python main.py
-```
+### 📚 Tela do Sistema
+Sistema
 
 ---
 
-## 🧪 Testes do Sistema
+## 🛠️ Ferramentas Utilizadas
 
-O sistema contempla os seguintes cenários de teste:
-
-* Empréstimo realizado com sucesso
-* Tentativa de empréstimo com livro indisponível
-* Tentativa de empréstimo com usuário não cadastrado
+- Figma (design e prototipagem)
 
 ---
 
-## 👤 Autor
+## 👨‍💻 Autor
 
-Lucas Vinícius Lima de Andrade
+- Lucas Vinícius Lima de Andrade
+
+---
+
+## 📌 Observações
+
+Este projeto foi desenvolvido para fins acadêmicos, com foco em aprendizado de design de interfaces e prototipag
